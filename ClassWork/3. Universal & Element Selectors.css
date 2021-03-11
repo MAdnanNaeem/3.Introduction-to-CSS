@@ -17,7 +17,7 @@ h1,h2{
   font-size: 2.2em;
 }
 
-/* ID Selector */
+/* Id Selector */
 /* we can use ID_Selector only once in our CSS styling code */
 #signup{
   color: #f1faee;
@@ -25,9 +25,59 @@ h1,h2{
   background-color: #1d3557;
 }
 
+/* Class Selector */
 .tag{
   color: blueviolet;
   font-size: 20px;
   text-decoration: underline green ;
   background-color: tomato;
+}
+
+/* General Decendent Selector (at any position child of it's parent) */
+.post a {
+  color: black;
+  background-color: darkgrey;
+}
+
+footer ul a {
+  font-size: 20px;
+  color: tomato;
+}
+
+/* Adjacent Selector (right after the other) */
+
+h2 + button {
+
+  color: blueviolet;
+  font-weight:bold;
+}
+
+/* Direct Decendent Selector (child of the parent not a subChild) */
+footer>a {
+  color: darkred;
+}
+
+/* Attribute Selector */
+input[type="text"]{
+  color: darkgreen;
+  font-size: 15px;
+}
+
+/* strictly those post classes whose are inside the Section */
+section[class="post"]{
+  font-size: 17px;
+}
+
+/* contains the hot_key anywhere in sentence   */
+a[href*="home"]{
+  background-color: black;
+}
+
+/* ends with the hot_key */
+a[href$="ut"]{
+  background-color: lightslategrey;
+}
+/* contains the word puppies */
+a[href~="puppies"]{
+  background-color: darkolivegreen;
 }
