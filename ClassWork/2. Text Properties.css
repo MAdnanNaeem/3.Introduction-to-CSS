@@ -1,0 +1,24 @@
+
+h1{
+  text-align: right;
+   letter-spacing: 4px;
+  width: 50%;
+  font-size: 25px;
+  color: burlywood;
+  text-decoration: green underline dashed 3px ;  /* dashed, wavy, dotted, doubled:  */
+  font-weight: bold;
+  line-height: normal;
+  font-family:sans-serif,monospace;
+
+}
+
+p{
+  text-align: justify;
+  background-color: bisque;
+  line-height: 1.6;
+  font-size: 20px;
+}
+a{
+  text-decoration: none;
+  color: blue;
+}

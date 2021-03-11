@@ -1,0 +1,21 @@
+
+
+*
+{
+  background-color: bisque;
+}
+
+button{
+  font-size: 17px;
+}
+
+h1,h2{
+  color: darkcyan;
+  font-size: 2.2em;
+}
+/* we can use ID_Selector once in our CSS styling code */
+#signup{
+  color: #f1faee;
+  font-weight: bold;
+  background-color: #1d3557;
+}

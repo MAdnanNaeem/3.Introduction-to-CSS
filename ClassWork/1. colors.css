@@ -1,0 +1,22 @@
+span{
+  color: green;
+  background-color: bisque;
+}
+
+p{
+  color: slateblue;
+  background-color: antiquewhite;
+}
+
+h3{
+  color: darkslategray;
+ background-color: burlywood;
+}
+h2{
+  color: rgb(25, 40, 110);
+  background-color: darksalmon;
+}
+div{
+  color: #21661d;
+  background-color: blanchedalmond;
+}
