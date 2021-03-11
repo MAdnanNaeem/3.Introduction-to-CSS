@@ -1,0 +1,33 @@
+
+/* Universal Selector */
+
+*
+{
+  background-color: bisque;
+}
+
+/*  Selector */
+button{
+  font-size: 17px;
+}
+
+/* List Selector */
+h1,h2{
+  color: darkolivegreen;
+  font-size: 2.2em;
+}
+
+/* ID Selector */
+/* we can use ID_Selector only once in our CSS styling code */
+#signup{
+  color: #f1faee;
+  font-weight: bold;
+  background-color: #1d3557;
+}
+
+.tag{
+  color: blueviolet;
+  font-size: 20px;
+  text-decoration: underline green ;
+  background-color: tomato;
+}
