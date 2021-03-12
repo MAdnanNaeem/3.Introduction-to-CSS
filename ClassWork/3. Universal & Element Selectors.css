@@ -1,35 +1,33 @@
-
 /* Universal Selector */
-
-*
-{
+* {
   background-color: bisque;
 }
 
 /*  Selector */
-button{
+button {
   font-size: 17px;
 }
 
 /* List Selector */
-h1,h2{
-  color: darkolivegreen;
+h1,
+h2 {
   font-size: 2.2em;
+  color: darkolivegreen;
 }
 
 /* Id Selector */
 /* we can use ID_Selector only once in our CSS styling code */
-#signup{
-  color: #f1faee;
+#signup {
   font-weight: bold;
+  color: #f1faee;
   background-color: #1d3557;
 }
 
 /* Class Selector */
-.tag{
-  color: blueviolet;
+.tag {
   font-size: 20px;
-  text-decoration: underline green ;
+  text-decoration: underline green;
+  color: blueviolet;
   background-color: tomato;
 }
 
@@ -45,11 +43,9 @@ footer ul a {
 }
 
 /* Adjacent Selector (right after the other) */
-
-h2 + button {
-
+h2+button {
+  font-weight: bold;
   color: blueviolet;
-  font-weight:bold;
 }
 
 /* Direct Decendent Selector (child of the parent not a subChild) */
@@ -58,26 +54,27 @@ footer>a {
 }
 
 /* Attribute Selector */
-input[type="text"]{
-  color: darkgreen;
+input[type='text'] {
   font-size: 15px;
+  color: darkgreen;
 }
 
 /* strictly those post classes whose are inside the Section */
-section[class="post"]{
+section[class='post'] {
   font-size: 17px;
 }
 
 /* contains the hot_key anywhere in sentence   */
-a[href*="home"]{
+a[href*='home'] {
   background-color: black;
 }
 
 /* ends with the hot_key */
-a[href$="ut"]{
+a[href$='ut'] {
   background-color: lightslategrey;
 }
+
 /* contains the word puppies */
-a[href~="puppies"]{
+a[href~='puppies'] {
   background-color: darkolivegreen;
 }
