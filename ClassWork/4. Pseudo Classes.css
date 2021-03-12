@@ -1,0 +1,57 @@
+
+/* Pseudo Classes Implementation */
+
+.post a:hover{
+  text-decoration: underline;
+  background-color: greenyellow;
+}
+
+.post button:hover{
+  background-color: cyan;
+}
+
+.post button:active{
+  background-color: blueviolet;
+}
+
+li>a:hover{
+  text-decoration: overline;
+}
+
+.post:nth-of-type(2n){
+  background-color: whitesmoke;
+}
+
+.post:nth-of-type(2n+1){
+  background-color: burlywood;
+}
+
+/* Universal Selector */
+
+/*  Selector */
+button {
+  font-size: 17px;
+}
+
+/* Id Selector */
+/* we can use ID_Selector only once in our CSS styling code */
+#signup {
+  font-weight: bold;
+  color: #f1faee;
+  background-color: #1d3557;
+}
+
+/* List Selector */
+h1,
+h2 {
+  font-size: 1em;
+  color: darkolivegreen;
+}
+
+.post a {
+  text-decoration: none;
+}
+
+li>a{
+  text-decoration: none;
+}
