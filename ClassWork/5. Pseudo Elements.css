@@ -44,5 +44,5 @@ h1::first-line{
 }
 
 ::selection{
-  background-color: whitesmoke;
+  background-color: whitesmoke !important; 
 }

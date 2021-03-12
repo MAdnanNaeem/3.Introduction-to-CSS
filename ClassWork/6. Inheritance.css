@@ -1,0 +1,19 @@
+body{
+  color: darkcyan;
+}
+
+h1{
+color: blueviolet;
+}
+
+section{
+  color:purple;
+  font-size: 20px;
+}
+
+/* Some attributes don't inherit parents properties by own */
+/* to forcefully inherit them we use inherit property  */
+
+input,button{
+  color: inherit;
+}
