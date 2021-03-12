@@ -1,0 +1,48 @@
+
+
+/* Universal Selector */
+
+/*  Selector */
+button {
+  font-size: 17px;
+}
+
+/* Id Selector */
+/* we can use ID_Selector only once in our CSS styling code */
+#signup {
+  font-weight: bold;
+  color: #f1faee;
+  background-color: #1d3557;
+}
+
+/* List Selector */
+h1,
+h2 {
+  font-size: 1em;
+  color: darkolivegreen;
+}
+
+.post a {
+  text-decoration: none;
+}
+
+li>a{
+  text-decoration: none;
+}
+
+
+/* Pseudo Code */
+
+h2::first-letter{
+  font-size: 35px;
+  color:darkslategrey;
+}
+
+h1::first-line{
+  color: teal;
+  font-size: 25px;
+}
+
+::selection{
+  background-color: whitesmoke;
+}
