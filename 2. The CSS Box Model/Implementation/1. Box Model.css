@@ -1,55 +1,65 @@
-h1
-{
+body{
+    margin: 10px; 
+}
+
+h1 {
   width: 225px;
   padding: 5px;
   background-color: bisque;
   color: darkgreen;
   border-left: 15px groove gold;
+  margin: 20px 0px 20px;
+
 }
 
-#box1,#box2{
+#box1, #box2 {
   width: 200px;
   height: 180px;
   background-color: whitesmoke;
 }
 
-#box3{
+#box3 {
   width: 200px;
   height: 210px;
   background-color: whitesmoke;
 }
 
-div:nth-of-type(2n+1){
-
+div:nth-of-type(2n+1) {
   background-color: bisque;
 }
 
-#box1{
+#box1 {
   border: 4px inset cornflowerblue;
   box-sizing: content-box;
-  padding: 10px 10px; /*vertical-horizontal*/
+  padding: 10px 10px;
+  /*vertical-horizontal*/
   border-radius: 10px;
+  /*vertical-horizontal*/
+  margin: 20px 5px;
 }
 
-#box2{
+#box2 {
   border-width: 4px;
   /*border-style: inset double;*/
   border-style: inset dashed;
   border-color: palevioletred;
   box-sizing: content-box;
-
   /*Top-right-bottom-left*/
   padding: 10px 10px 10px 10px;
   border-radius: 10px;
+  /*Top-right-bottom-left*/
+  margin: 0px 5px 10px 5px;
 }
 
-#box3{
- border-width: 4px;
-border-color: darkturquoise;
-/*border-style: groove ridge;*/
-border-style: hidden outset ;
- box-sizing: content-box;
- /*Top-horizontal-bottom*/
- padding: 10px 10px 10px;
- border-radius: 10px 100px/80px;
+#box3 {
+  border-width: 4px;
+  border-color: darkturquoise;
+  /*border-style: groove ridge;*/
+  border-style: hidden outset;
+  box-sizing: content-box;
+  /*Top-horizontal-bottom*/
+  padding: 10px 10px 10px;
+  border-radius: 10px 100px/80px;
+  /*Top-horizontal-bottom*/
+  margin: 20px 5px 10px;
 }
