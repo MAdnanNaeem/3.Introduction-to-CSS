@@ -1,11 +1,21 @@
 h1
 {
+  width: 225px;
+  padding: 5px;
+  background-color: bisque;
   color: darkgreen;
+  border-left: 15px groove gold;
 }
 
-div{
+#box1,#box2{
   width: 200px;
   height: 180px;
+  background-color: whitesmoke;
+}
+
+#box3{
+  width: 200px;
+  height: 210px;
   background-color: whitesmoke;
 }
 
@@ -17,7 +27,8 @@ div:nth-of-type(2n+1){
 #box1{
   border: 4px inset cornflowerblue;
   box-sizing: content-box;
-  padding: 10px;
+  padding: 10px 10px; /*vertical-horizontal*/
+  border-radius: 10px;
 }
 
 #box2{
@@ -26,14 +37,19 @@ div:nth-of-type(2n+1){
   border-style: inset dashed;
   border-color: palevioletred;
   box-sizing: content-box;
-  padding: 10px;
+
+  /*Top-right-bottom-left*/
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
 }
 
 #box3{
  border-width: 4px;
-border-color:  chartreuse;
+border-color: darkturquoise;
 /*border-style: groove ridge;*/
-border-style: outset hidden;
+border-style: hidden outset ;
  box-sizing: content-box;
- padding: 10px;
+ /*Top-horizontal-bottom*/
+ padding: 10px 10px 10px;
+ border-radius: 10px 100px/80px;
 }
