@@ -15,19 +15,25 @@ div:nth-of-type(2n+1){
 }
 
 #box1{
-  border: 3px solid black;
+  border: 4px inset cornflowerblue;
   box-sizing: content-box;
   padding: 10px;
 }
 
 #box2{
-  border: 3px solid palevioletred;
+  border-width: 4px;
+  /*border-style: inset double;*/
+  border-style: inset dashed;
+  border-color: palevioletred;
   box-sizing: content-box;
   padding: 10px;
 }
 
 #box3{
- border: 3px solid chartreuse;
+ border-width: 4px;
+border-color:  chartreuse;
+/*border-style: groove ridge;*/
+border-style: outset hidden;
  box-sizing: content-box;
  padding: 10px;
 }
