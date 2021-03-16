@@ -12,8 +12,8 @@ h1
 }
 
 .s1{
-  width: 500px;
-  height: 500px;
+  width: 250px;
+  height: 250px;
   background-color: burlywood;
 }
 div{
@@ -21,4 +21,19 @@ div{
   background-color: aqua;
     width: 50%;
     height: 50%;
+}
+/* The em property works according to the font size of parent */
+.em{
+  font-size: 15px;
+}
+h2{
+  color: darkolivegreen;
+  font-size: 1.5em;
+}
+section>h3{
+  color: blueviolet;
+  font-size: 2em;
+}
+section>p{
+  font-size: 2em;
 }
