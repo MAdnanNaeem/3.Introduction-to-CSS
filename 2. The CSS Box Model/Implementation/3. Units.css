@@ -37,3 +37,11 @@ section>h3{
 section>p{
   font-size: 2em;
 }
+
+button{
+  font-size: 0.8em;
+  margin-left: 20px;
+  background-color: bisque;
+  border-radius: 1em;
+
+}
