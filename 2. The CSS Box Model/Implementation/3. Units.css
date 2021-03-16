@@ -1,0 +1,24 @@
+h1
+{
+    width: 180px;
+    color: darkslateblue;
+    border: 5px groove  aquamarine;
+    padding: 1px;
+    margin-left: 20%;
+    text-align: center;
+    background-color: bisque;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.s1{
+  width: 500px;
+  height: 500px;
+  background-color: burlywood;
+}
+div{
+
+  background-color: aqua;
+    width: 50%;
+    height: 50%;
+}
